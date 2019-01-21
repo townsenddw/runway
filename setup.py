@@ -55,7 +55,7 @@ INSTALL_REQUIRES = [
     # botocore version. It's more rigid than necessary, but should hopefully
     # make users less likely to encounter an error OOTB.
     'botocore<1.11.0',
-    'boto3~=1.7.0'
+    'boto3~=1.9.82'
 ]
 
 # pylint v2+ is only py3 compatible
