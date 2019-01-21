@@ -54,7 +54,7 @@ INSTALL_REQUIRES = [
     # Best option here seems to be to just require the matching compatible
     # botocore version. It's more rigid than necessary, but should hopefully
     # make users less likely to encounter an error OOTB.
-    'botocore<1.11.0',
+    'botocore',
     'boto3~=1.9.82'
 ]
 
